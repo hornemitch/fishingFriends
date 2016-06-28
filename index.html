@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fishing Friends</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top" id='nav'>
+        <div class='brand pull-left'>
+            <a href="#sec1" id='brand'><img src="img/logo.png" alt="">
+                <h1>Fishing Friends</h1></a>
+        </div>
+        <div class="listdiv pull-right">
+            <ul>
+                <li><a href="#sec2">About us</a></li>
+                <li><a href="#sec3">Gallery</a></li>
+                <li><a href="#sec4">Links</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="sec" id='sec1' data-parallax="scroll" data-image-src="img/img1.jpg" data-size='100% 100%'>
+        <div class='overlay'>
+            <div class='container header'>
+                <img src="img/logo.png" id='myMainPic'>
+                <h1>Reho Hengel Klub</h1>
+                <h2>Fishing Friends</h2>
+            </div>
+        </div>
+    </section>
+    <section class="sec" id='sec2'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <div class='col-md-8 col-md-offset-2' id='sec2header'>
+                    <h1>Welkom by Reho Hengel Klub</h1></div>
+                <div class='col-md-6 col-md-offset-3 aboutText'>
+                    <p>Ons klub het vroeg in 2005 ontstaan, hengel al 10 jaar by verskeie oewers om die Vaaldam en bestaan huidiglik uit 42 hengelaars.</p>
+                    <p> Ons is ge-affilieer by die Vrystaat. Ons hengel volgens die Suid Afrikaanse hengel standaarde en neem ook deel aan OVS kampioenskappe en liga’s. Ons top hengelaars neem deel aan die Vrystaat proewe waar hulle deel kan vorm van die nationale Vrystaat span.</p>
+                    <p> Aan die einde van elke jaar hou die klub 'n prysuitdeling waar ons lede wissel troefees en medalje’s in die verskillende kategorieë ontvang.</p>
+                </div>
+            </div>
+            <div class='col-md-6'><img src="img/sec1.jpg" alt=""></div>
+        </div>
+    </section>
+    <section class="sec" id='sec3'>
+        <div class='row'>
+            <div class='col-md-8 col-md-offset-2'>
+                <h1 id="trg">Ons Gallery</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6 col-md-offset-3 big'>
+                <img id='target' src="img/bigpic.jpg" alt="">
+            </div>
+        </div>
+        <div class='row gal'>
+            <div id='thumbs'>
+                <a href="img/img1.jpg"><img src="img/img1.jpg"></a>
+                <a href="img/sec1.jpg"><img src="img/sec1.jpg"></a>
+                <a href="img/bigpic.jpg"><img src="img/bigpic.jpg"></a>
+                <a href="img/sec2.jpg"><img src="img/sec2.jpg"></a>
+                <a href="img/sec2.jpg"><img src="img/sec2.jpg"></a>
+                <a href="img/img1.jpg"><img src="img/img1.jpg"></a>
+                <a href="img/sec1.jpg"><img src="img/sec1.jpg"></a>
+                <a href="img/bigpic.jpg"><img src="img/bigpic.jpg"></a>
+            </div>
+        </div>
+    </section>
+    <section class='sec' id='sec4'>
+        <div class='row'>
+            <h1>Jou Skakels Na Hengel</h1>
+        </div>
+        <div class='row'>
+            <div>
+                <h2>Algemeen</h2>
+            </div>
+            <div class='col-md-4'>
+                <h3>Category</h3>
+            </div>
+            <div class='col-md-4'>
+                <h3>Category</h3>
+            </div>
+            <div class='col-md-4'>
+                <h3>Category</h3>
+            </div>
+            <div>
+                <h2>2014</h2>
+            </div>
+            <div class='col-md-4'>
+                <h3>month</h3>
+            </div>
+            <div class='col-md-4'>
+                <h3>month</h3>
+            </div>
+            <div class='col-md-4'>
+                <h3>month</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2><strong>Fishing Friends</strong></h2>
+                    <p class="text-muted">Copyright &copy; Reho Hengel klub 2015<i class="fa fa-heart"></i>Made With Love by <a href="">Mitch Horne</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src='js/jquery.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script type="text/javascript" src='js/main.js'></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top -50
+                    }, 750);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>

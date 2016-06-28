@@ -1,0 +1,274 @@
+/*----------------------------------------------------------------------------
+----------------------      navbar      --------------------------------------
+----------------------------------------------------------------------------*/
+
+.navbar{
+	width: 100%;
+	height: 75px;
+	background-color: rgba(50,50,50,.3);
+	color: #bbb;
+	font-family: 'Kaushan Script';
+	text-shadow:#bbb 1px 1px;
+	transition: all ease-in-out .2s;
+}
+
+.navbargather{
+	width: 100%;
+	height: 75px;
+	background-color: #444;
+	color: #bbb;
+	font-family: 'Kaushan Script';
+	text-shadow:#bbb 1px 1px;
+	transition: all ease-in-out .2s;
+}
+
+.brand{
+	width:auto;
+	margin: 15px 10px;
+}
+
+.brand img{
+	display: inline;
+	width: 80px;
+	margin-top: -20px;
+}
+
+.brand h1{
+	display: inline;
+	font-size: 40px;
+	transition:all 0.3s;
+}
+
+.listdiv{
+	display: inline;
+	margin: 20px 10px;
+}
+
+.listdiv ul{
+	list-style-type: none;
+	display: inline;
+}
+
+.listdiv ul li{
+	display: inline;
+	margin:auto 20px;
+	font-size: 25px;
+	right: 100%;
+}
+
+.brand a{
+	color: #bbb;
+	transition:all 0.3s;
+	outline: 0;
+}
+
+.listdiv a{
+	color: #bbb;
+	transition:all 0.3s;
+	outline: 0;
+}
+
+.brand #brand{
+	text-align: left;
+}
+
+.brand #brand:hover{
+	color: #C6962D;
+	text-decoration: none;
+	text-shadow:#C6962D 1px 0px 5px;
+}
+
+.listdiv ul li a:hover{
+	color: #C6962D;
+	text-decoration: none;
+	text-shadow:#C6962D .5px 0px 5px;
+}
+
+/*----------------------------------------------------------------------------
+----------------------     sections     --------------------------------------
+----------------------------------------------------------------------------*/
+
+.sec{
+	color:#111;
+}
+
+/*----------------------------------------------------------------------------
+----------------------     section1     --------------------------------------
+----------------------------------------------------------------------------*/
+
+#sec1{
+	height: auto;
+	background-size: auto auto;
+	background-origin: center;
+	font-family: 'Kaushan Script';
+	text-align: center;
+}
+
+.overlay{
+	background-size: cover;
+	height: 100%;
+	background-color: rgba(145,145,145,.5);
+}
+
+#sec1 .header{
+	padding-top: 120px;
+}
+
+#sec1 img{
+	height: 300px;
+}
+
+#sec1 h1{
+	font-size: 100px;
+}
+
+#sec1 h2{
+	font-size: 65px;
+	padding-bottom: 200px;	
+}
+
+/*----------------------------------------------------------------------------
+----------------------     section2     --------------------------------------
+----------------------------------------------------------------------------*/
+
+#sec2{
+	height: auto;
+	background-color: #fff;
+	padding-right: 0;
+}
+
+#sec2 #sec2header h1{
+	font-family: 'Kaushan Script';
+	text-align: center;
+	color:#936204;
+	padding-top: 25px;
+	text-shadow:#936204 1px 0px 10px;
+	font-size: 75px;
+}
+
+#sec2 img{
+	height: 450px;
+	padding-top: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: -15px 15px 8px #888 ;
+}
+
+#sec2 p{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#sec2 .aboutText{
+	padding-bottom: 20px;
+}
+
+/*----------------------------------------------------------------------------
+----------------------     section3     --------------------------------------
+----------------------------------------------------------------------------*/
+
+#sec3{
+	background-color: #eee;
+	height:auto;
+}
+
+#sec3 h1{
+	font-family: 'Kaushan Script';
+	text-align: center;
+	color:#936204;
+	padding-top: 25px;
+	text-shadow:#936204 1px 0px 10px;
+	font-size: 75px;
+}
+
+#sec3 .big img{
+	margin: 20px 0 75px;
+	width: 1000px;
+	height: 600px;
+	box-shadow: -15px 15px 8px #888 ;
+}
+
+#sec3 .gal{
+	text-align: center;
+}
+
+#sec3 .gal img{
+	width: 350px;
+	height:250px;
+	margin-right: 2%;
+	margin-bottom: 50px;
+	box-shadow: -15px 15px 8px #888;
+	transition: all ease-in-out .5s;
+}
+
+#sec3 .gal img:hover{
+	transform: rotateZ(-15deg);
+	box-shadow: -20px 5px 8px #888;
+}
+
+#sec3 .gal a{
+	outline: 0;
+}
+
+/*----------------------------------------------------------------------------
+----------------------     section4     --------------------------------------
+----------------------------------------------------------------------------*/
+
+#sec4 h1{
+	font-family: 'Kaushan Script';
+	text-align: center;
+	color:#936204;
+	padding-top: 25px;
+	text-shadow:#936204 1px 0px 10px;
+	font-size: 75px;
+}
+
+#sec4 h2{
+	font-family: 'Kaushan Script';
+	text-align: center;
+	color:#936204;
+	padding:15px 0;
+	text-shadow:#936204 1px 0px 10px;
+	font-size: 50px;
+}
+
+#sec4 h3{
+	font-family: 'Kaushan Script';
+	text-align: center;
+	color:#936204;
+	padding:15px 0;
+	text-shadow:#936204 1px 0px 10px;
+	font-size: 30px;
+}
+
+/*----------------------------------------------------------------------------
+-----------------------     footer     ---------------------------------------
+----------------------------------------------------------------------------*/
+
+footer{
+	width: 100%;
+	background-color:#222;
+	color: #bbb;
+	transition: all ease-in-out .2s;
+}
+
+footer h2{
+	font-family: 'Kaushan Script';
+	color:#936204 ;
+}
+
+footer i{
+	color:#936204 ;
+	margin: 0 10px;
+}
+
+footer a{
+	transition: all 0.3s;
+	color: #936204 ;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color:silver;
+}
